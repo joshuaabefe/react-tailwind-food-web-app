@@ -27,7 +27,7 @@ function App() {
     step1: {
       title: 'Create an account',
       heading: 'Create/login to an existing account to get started',
-      description: 'An account is created with your email and a desired password',
+      description: 'An account is created with your email and a desired password.',
       img: Img_1,
       alternate: false,
     },
