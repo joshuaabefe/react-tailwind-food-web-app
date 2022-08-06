@@ -37,7 +37,7 @@ const Main = ({appType, tagLine, description, mainActionText}) => {
         </div>
         
       </div>
-      <AnimationOnScroll animateIn="animate__bounceInLeft" animateOnce="false" 
+      <AnimationOnScroll animateIn="animate__bounceInUp" animateOnce="false" 
       className="p-5 flex justify-center lg:mt-20">
           <img className="lg:h-126 h-124 drop-shadow-2xl lg:-mt-60" src={food_app} alt=""/>
       </AnimationOnScroll>
