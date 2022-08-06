@@ -12,7 +12,7 @@ const Step = ({title, heading, description, img, alternate}) => {
           <div className={alternate?row : rowReverse}>
             
             <div style={{textShadow:'0px 1px 1px gray'}}
-              className="p-5 text-gray dancing text-center lg:text-left border">
+              className="p-5 text-gray dancing text-center lg:text-left">
               <p className="text-xl lg:font-bold font-semibold text-colorOne lg:text-colorTwo">{title}</p>
               <p className="text-3xl lg:text-4xl pt-2 lg:font-bold font-semibold text-gray-800 lg:w-4/6">{heading}</p>
               <p className="text-lg lg:text-2xl pt-4 text-gray-500">{description}</p>
